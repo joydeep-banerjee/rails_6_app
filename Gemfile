@@ -45,11 +45,14 @@ end
 group :development do
   gem 'capistrano', '3.11.0' 
   gem 'net-ssh', '4.2.0' 
-  gem 'capistrano3-puma', github: "seuros/capistrano-puma" 
   gem 'capistrano-rails', require: false 
   gem 'capistrano-bundler', require: false 
   gem 'capistrano-rvm', '0.1.2' 
-  # gem 'capistrano-sidekiq', github: 'seuros/capistrano-sidekiq' 
+  gem 'capistrano3-puma', '4.0.0'
+  gem 'capistrano-db-tasks', '~> 0.6', require: false
+  gem 'capistrano-rails-console', '~> 2.3', require: false
+  gem 'capistrano-rails-db', '0.0.2'
+  gem 'capistrano-rake', require: false
 end 
 
 group :test do
