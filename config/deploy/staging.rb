@@ -1,7 +1,7 @@
-server '15.207.102.216', user: 'deploy', roles: %w{web app db}
+server '13.127.34.3', user: 'deploy', roles: %w{web app db}
 set :branch, "master"
 set :rails_env, "staging"
-set :deploy_to, "/home/deploy/projects/rails_6_app"
+set :deploy_to, "/var/www/test_app" 
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
