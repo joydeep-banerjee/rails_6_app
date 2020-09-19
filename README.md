@@ -22,3 +22,13 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Test SQS
+
+
+json_data = { mail_to: 'joydeep.banerjee@quantuminventions.com', subject: "test mail", base_host: "sg.trip-staging.mapsynq.com", username: "Joy Banerjee"}.to_json
+
+  UserMailer.password_change_notification(json_data).deliver_later
+
+
+  use dev-mailers for last one

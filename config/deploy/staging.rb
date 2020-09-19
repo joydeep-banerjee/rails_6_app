@@ -1,4 +1,4 @@
-server '15.207.19.163', user: 'deploy', roles: %w{web app db}
+server '65.0.5.252', user: 'deploy', roles: %w{web app db}
 set :branch, "master"
 set :rails_env, "staging"
 set :deploy_to, "/var/www/test_app" 
