@@ -2,7 +2,8 @@
 lock "~> 3.11.0"
 
 set :application, "rails_6_app"
-set :repo_url, "git@github.com:joydeep-banerjee/rails_6_app.git"
+# set :repo_url, "git@github.com:joydeep-banerjee/rails_6_app.git"
+set :repo_url, "git://github.com/joydeep-banerjee/rails_6_app.git"
  
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
